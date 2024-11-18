@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    /* transition: background-color 1s; */
+    display: none; /* Скрываем фон по умолчанию */
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    font-size: 3em;
+    color: darkblue;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
